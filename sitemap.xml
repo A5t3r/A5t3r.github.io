@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.flysnow.org/</loc>
+    <loc>http:asterio.top/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.flysnow.org/categories/</loc>
+    <loc>http:asterio.top/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.flysnow.org/menu/</loc>
+    <loc>http:asterio.top/menu/</loc>
   </url>
   
   <url>
-    <loc>http://www.flysnow.org/tags/</loc>
+    <loc>http:asterio.top/tags/</loc>
     <priority>0</priority>
   </url>
   
