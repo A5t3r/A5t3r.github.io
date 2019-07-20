@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Aster&#39;s blog</title>
-    <link>asterio.top/categories/blog/</link>
+    <link>/categories/blog/</link>
     <description>Recent content in blog on Aster&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 19 Jul 2019 16:29:44 +0800</lastBuildDate>
     
-	<atom:link href="asterio.top/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo deploy</title>
-      <link>asterio.top/posts/hugo_blog/</link>
+      <link>/posts/hugo_blog/</link>
       <pubDate>Fri, 19 Jul 2019 16:29:44 +0800</pubDate>
       
-      <guid>asterio.top/posts/hugo_blog/</guid>
+      <guid>/posts/hugo_blog/</guid>
       <description>&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;
 
 &lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;

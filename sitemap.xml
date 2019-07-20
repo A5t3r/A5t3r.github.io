@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>asterio.top/</loc>
+    <loc>/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>asterio.top/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>asterio.top/posts/hugo_blog/</loc>
+    <loc>/posts/hugo_blog/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
   </url>
   
   <url>
-    <loc>asterio.top/posts/</loc>
-    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>asterio.top/tags/</loc>
+    <loc>/posts/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>asterio.top/categories/blog/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>asterio.top/tags/hugo/</loc>
+    <loc>/categories/blog/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>asterio.top/menu/</loc>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/menu/</loc>
   </url>
   
 </urlset>
