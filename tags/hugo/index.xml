@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aster&#39;s blog</title>
-    <link>http:asterio.top/</link>
-    <description>Recent content on Aster&#39;s blog</description>
+    <title>hugo on Aster&#39;s blog</title>
+    <link>http:asterio.top/tags/hugo/</link>
+    <description>Recent content in hugo on Aster&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 19 Jul 2019 16:29:44 +0800</lastBuildDate>
     
-	<atom:link href="http:asterio.top/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http:asterio.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,15 +28,6 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 &lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;
 
 &lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;&lt;/h6&gt;</description>
-    </item>
-    
-    <item>
-      <title>about me</title>
-      <link>http:asterio.top/menu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http:asterio.top/menu/</guid>
-      <description>id: Aster</description>
     </item>
     
   </channel>

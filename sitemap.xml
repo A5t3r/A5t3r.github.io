@@ -4,21 +4,47 @@
   
   <url>
     <loc>http:asterio.top/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http:asterio.top/categories/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http:asterio.top/posts/hugo_blog/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http:asterio.top/posts/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http:asterio.top/tags/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http:asterio.top/categories/blog/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http:asterio.top/tags/hugo/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http:asterio.top/menu/</loc>
-  </url>
-  
-  <url>
-    <loc>http:asterio.top/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Aster&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Fri, 19 Jul 2019 16:29:44 +0800</lastBuildDate>
     
 	<atom:link href="http:asterio.top/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>http:asterio.top/categories/blog/</link>
+      <pubDate>Fri, 19 Jul 2019 16:29:44 +0800</pubDate>
+      
+      <guid>http:asterio.top/categories/blog/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
