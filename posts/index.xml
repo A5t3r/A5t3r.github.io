@@ -27,7 +27,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 &lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;
 
-&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;&lt;/h6&gt;</description>
+&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;, hugo生成静态文件后将public文件中文件push到repo完成部署.&lt;/h6&gt;</description>
     </item>
     
   </channel>

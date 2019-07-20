@@ -19,21 +19,21 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
     <title>Hugo deploy - Aster&#39;s blog</title>
     
-<meta name="description" content="&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;&lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;$ hugo versionHugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;&lt;/h6&gt;">
+<meta name="description" content="&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;&lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;$ hugo versionHugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;, hugo生成静态文件后将public文件中文件push到repo完成部署.&lt;/h6&gt;">
 
 <meta property="og:title" content="Hugo deploy - Aster&#39;s blog">
 <meta property="og:type" content="article">
 <meta property="og:url" content="/posts/hugo_blog/">
 <meta property="og:image" content="/images/default.png">
 <meta property="og:site_name" content="Aster&#39;s blog">
-<meta property="og:description" content="&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;&lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;$ hugo versionHugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;&lt;/h6&gt;">
+<meta property="og:description" content="&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;&lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;$ hugo versionHugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;, hugo生成静态文件后将public文件中文件push到repo完成部署.&lt;/h6&gt;">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Aster&#39;s blog">
 <meta name="twitter:url" content="/posts/hugo_blog/">
 <meta name="twitter:title" content="Hugo deploy - Aster&#39;s blog">
-<meta name="twitter:description" content="&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;&lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;$ hugo versionHugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;&lt;/h6&gt;">
+<meta name="twitter:description" content="&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;&lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;$ hugo versionHugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;, hugo生成静态文件后将public文件中文件push到repo完成部署.&lt;/h6&gt;">
 <meta name="twitter:image" content="/images/default.png">
 
 
@@ -68,7 +68,7 @@
         "height": 60
       }
     },
-    "description": "\x3ch4 id=\x221-install-hugo\x22\x3e1.install hugo\x3c\/h4\x3e\n\n\x3ch6 id=\x22我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功\x22\x3e我的环境是Windows, 在官网下载\x3ca href=\x22https:\/\/gohugo.io\/getting-started\/installing\/\x22\x3eHugo\x3c\/a\x3e后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功\x3c\/h6\x3e\n\n\x3cpre\x3e\x3ccode\x3e$ hugo version\nHugo Static Site Generator v0.55.6-A5D4C82D windows\/amd64 BuildDate: 2019-05-18T07:57:00Z\n\x3c\/code\x3e\x3c\/pre\x3e\n\n\x3ch4 id=\x222-deploy\x22\x3e2.deploy\x3c\/h4\x3e\n\n\x3ch6 id=\x22参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start\x22\x3e参考官方教程\x3ca href=\x22https:\/\/gohugo.io\/getting-started\/quick-start\/\x22\x3ehugo quick-start\x3c\/a\x3e\x3c\/h6\x3e"
+    "description": "\x3ch4 id=\x221-install-hugo\x22\x3e1.install hugo\x3c\/h4\x3e\n\n\x3ch6 id=\x22我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功\x22\x3e我的环境是Windows, 在官网下载\x3ca href=\x22https:\/\/gohugo.io\/getting-started\/installing\/\x22\x3eHugo\x3c\/a\x3e后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功\x3c\/h6\x3e\n\n\x3cpre\x3e\x3ccode\x3e$ hugo version\nHugo Static Site Generator v0.55.6-A5D4C82D windows\/amd64 BuildDate: 2019-05-18T07:57:00Z\n\x3c\/code\x3e\x3c\/pre\x3e\n\n\x3ch4 id=\x222-deploy\x22\x3e2.deploy\x3c\/h4\x3e\n\n\x3ch6 id=\x22参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署\x22\x3e参考官方教程\x3ca href=\x22https:\/\/gohugo.io\/getting-started\/quick-start\/\x22\x3ehugo quick-start\x3c\/a\x3e, hugo生成静态文件后将public文件中文件push到repo完成部署.\x3c\/h6\x3e"
   }
 </script>
 
@@ -160,7 +160,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 <h4 id="2-deploy">2.deploy</h4>
 
-<h6 id="参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start">参考官方教程<a href="https://gohugo.io/getting-started/quick-start/">hugo quick-start</a></h6>
+<h6 id="参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署">参考官方教程<a href="https://gohugo.io/getting-started/quick-start/">hugo quick-start</a>, hugo生成静态文件后将public文件中文件push到repo完成部署.</h6>
 
 <h4 id="3-theme">3.theme</h4>
 
@@ -175,7 +175,13 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 			&lt;li&gt;{{ .Render &quot;li&quot; }}&lt;/li&gt;
 		{{ end }}
 	{{ end }}
-</code></pre></div>
+</code></pre>
+
+<h4 id="5-other">5.other</h4>
+
+<h6 id="1-push代码的时候发现我的页面没有全部加载css-查找-资料-https-discourse-gohugo-io-t-hugo-static-styling-not-working-whereas-hugo-server-works-2916-发现可能是config-toml的问题-修改-baseurl-为-baseurl-解决问题">1.push代码的时候发现我的页面没有全部加载css, 查找<a href="https://discourse.gohugo.io/t/hugo-static-styling-not-working-whereas-hugo-server-works/2916">资料</a>发现可能是config.toml的问题, 修改<code>baseUrl</code>为<code>baseURL = &quot;/&quot;</code>解决问题.</h6>
+
+<h6 id="2-comment-未解决">2.comment: 未解决.</h6></div>
   
   <footer class="article-footer">
     
