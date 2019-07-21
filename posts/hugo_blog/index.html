@@ -239,8 +239,19 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
   
 
+  {{ if .Site.Params.utteranc.enable }}
+  <div class="comment">
+      <script src="https://utteranc.es/client.js"
+            repo= "{{ .Site.Params.utteranc.repo }}"
+            issue-term="{{ .Site.Params.utteranc.issueTerm }}"
+            theme="{{ default "github-light" .Site.Params.utteranc.theme }}"
+            crossorigin="anonymous"
+            async>
+      </script>
+	  </div>
+  {{ end }}
   
-
+  
   <div class="disqus-comment">
   <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
     
