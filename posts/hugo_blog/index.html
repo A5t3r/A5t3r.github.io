@@ -177,11 +177,50 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 	{{ end }}
 </code></pre>
 
-<h4 id="5-other">5.other</h4>
+<h4 id="5-comments">5.comments</h4>
+
+<h6 id="在themes-your-theme-layout-partials添加comment-html-或者在文章页面添加评论代码-我使用的是-utterances-https-utteranc-es-installation-id-1305824-setup-action-install-优点是授权一个repo就可以使用">在themes/your_theme/layout/partials添加comment.html, 或者在文章页面添加评论代码, 我使用的是<a href="https://utteranc.es/?installation_id=1305824&amp;setup_action=install">utterances</a>, 优点是授权一个repo就可以使用.</h6>
+
+<pre><code>comments.html
+
+{{ if and .IsPage (ne .Params.comment false) }}
+  &lt;!-- utteranc --&gt;
+  {{ if .Site.Params.utteranc.enable }}
+    &lt;div class=&quot;post bg-white&quot;&gt;
+      &lt;script src=&quot;https://utteranc.es/client.js&quot;
+            repo= &quot;{{ .Site.Params.utteranc.repo }}&quot;
+            issue-term=&quot;{{ .Site.Params.utteranc.issueTerm }}&quot;
+            theme=&quot;{{ default &quot;github-light&quot; .Site.Params.utteranc.theme }}&quot;
+            crossorigin=&quot;anonymous&quot;
+            async&gt;
+      &lt;/script&gt;
+    &lt;/div&gt;
+	
+  {{ end }}
+{{- end }}
+</code></pre>
+
+<h6 id="在single-html-posts-page-添加-partial-comments-html-config-toml添加代码">在single.html(posts page)添加<code>{{ partial &quot;comments.html&quot; . }}</code>, config.toml添加代码</h6>
+
+<pre><code class="language-js">[params.utteranc]
+  enable = true
+  repo = &quot;github-name/repo-name&quot;
+  issueTerm = &quot;pathname&quot;
+  theme = &quot;github-light&quot;
+</code></pre>
+
+<h4 id="6-favicon-pages-icon">6.favicon(pages icon)</h4>
+
+<h6 id="我在主题static目录下存放图标">我在主题static目录下存放图标</h6>
+
+<pre><code>&lt;link rel=&quot;icon&quot; href=&quot;{{ &quot;favicon.ico&quot; | relURL }}&quot; &gt;
+</code></pre>
+
+<h4 id="7-other">7.other</h4>
 
 <h6 id="1-push代码的时候发现我的页面没有全部加载css-查找-资料-https-discourse-gohugo-io-t-hugo-static-styling-not-working-whereas-hugo-server-works-2916-发现可能是config-toml的问题-修改-baseurl-为-baseurl-解决问题">1.push代码的时候发现我的页面没有全部加载css, 查找<a href="https://discourse.gohugo.io/t/hugo-static-styling-not-working-whereas-hugo-server-works/2916">资料</a>发现可能是config.toml的问题, 修改<code>baseUrl</code>为<code>baseURL = &quot;/&quot;</code>解决问题.</h6>
 
-<h6 id="2-comment-未解决">2.comment: 未解决.</h6></div>
+<h6 id="2-outstanding-rich-content">2.outstanding: rich content</h6></div>
   
   <footer class="article-footer">
     
