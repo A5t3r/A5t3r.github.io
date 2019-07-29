@@ -17,17 +17,17 @@
       <pubDate>Fri, 19 Jul 2019 16:29:44 +0800</pubDate>
       
       <guid>/posts/hugo_blog/</guid>
-      <description>&lt;h4 id=&#34;1-install-hugo&#34;&gt;1.install hugo&lt;/h4&gt;
+      <description>&lt;h3 id=&#34;install-hugo&#34;&gt;install hugo&lt;/h3&gt;
 
-&lt;h6 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h6&gt;
+&lt;h5 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h5&gt;
 
 &lt;pre&gt;&lt;code&gt;$ hugo version
 Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id=&#34;2-deploy&#34;&gt;2.deploy&lt;/h4&gt;
+&lt;h3 id=&#34;deploy&#34;&gt;deploy&lt;/h3&gt;
 
-&lt;h6 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;, hugo生成静态文件后将public文件中文件push到repo完成部署.&lt;/h6&gt;</description>
+&lt;h5 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;, hugo生成静态文件后将public文件中文件push到repo完成部署.&lt;/h5&gt;</description>
     </item>
     
   </channel>
