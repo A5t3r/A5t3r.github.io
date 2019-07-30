@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Aster&#39;s blog</title>
-    <link>http//asterio.top/tags/</link>
+    <link>https://asterio.top/tags/</link>
     <description>Recent content in Tags on Aster&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 19 Jul 2019 16:29:44 +0800</lastBuildDate>
     
-	<atom:link href="http//asterio.top/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://asterio.top/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hugo</title>
-      <link>http//asterio.top/tags/hugo/</link>
+      <link>https://asterio.top/tags/hugo/</link>
       <pubDate>Fri, 19 Jul 2019 16:29:44 +0800</pubDate>
       
-      <guid>http//asterio.top/tags/hugo/</guid>
+      <guid>https://asterio.top/tags/hugo/</guid>
       <description></description>
     </item>
     
