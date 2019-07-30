@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Aster&#39;s blog</title>
-    <link>/categories/</link>
+    <link>http//asterio.top/categories/</link>
     <description>Recent content in Categories on Aster&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 19 Jul 2019 16:29:44 +0800</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http//asterio.top/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>blog</title>
-      <link>/categories/blog/</link>
+      <link>http//asterio.top/categories/blog/</link>
       <pubDate>Fri, 19 Jul 2019 16:29:44 +0800</pubDate>
       
-      <guid>/categories/blog/</guid>
+      <guid>http//asterio.top/categories/blog/</guid>
       <description></description>
     </item>
     

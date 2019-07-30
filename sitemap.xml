@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>http//asterio.top/about/</loc>
     <lastmod>2019-07-29T17:41:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http//asterio.top/</loc>
     <lastmod>2019-07-29T17:41:34+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http//asterio.top/categories/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/posts/hugo_blog/</loc>
+    <loc>http//asterio.top/posts/hugo_blog/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>http//asterio.top/posts/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/blog/</loc>
+    <loc>http//asterio.top/tags/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
+    <loc>http//asterio.top/categories/blog/</loc>
+    <lastmod>2019-07-19T16:29:44+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http//asterio.top/tags/hugo/</loc>
     <lastmod>2019-07-19T16:29:44+08:00</lastmod>
     <priority>0</priority>
   </url>
