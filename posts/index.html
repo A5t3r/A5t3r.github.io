@@ -44,8 +44,8 @@
 	
 	<div style="height: 80px">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-navbar">
-				<div id="app" class="container">
-					<a class="navbar-brand" href="/">Aster&#39;s blog</a>
+				<div class="container">
+					<a class="navbar-brand" href="/"><i class="fas fa-crow"></i>Aster&#39;s blog</a>
 					<button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
 						<div class="animated-icon3"><span></span><span></span><span></span></div>
 					</button>
@@ -68,9 +68,19 @@
 							</li>
 							
 						</ul>
-									
-						
+
+
 						<ul class="navbar-nav ml-auto">
+						
+							<form class="form-inline" action="//www.google.com/search" accept-charset="utf-8" target="_blank" _lpchecked="1" method="get">
+								<div class="md-form my-0 md-outline">
+									<input class="form-control" type="text" maxlength="20" placeholder="Google" name="q">
+									<input type="hidden" name="sitesearch" value="/">
+								</div>
+								<button class="btn btn-sm my-0 ml-auto" type="submit">Search</button>
+							</form>
+							
+						
 						  
 						  
 							<li class="nav-item">
@@ -87,12 +97,11 @@
 			</nav>
 	</div>
 	
-	
     <main>
       <div class="container">
         
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-9">
 
     
     <header class="page-header">
@@ -105,17 +114,20 @@
 	
 		
 			<li><article class="li">
-  <header>
-    <ul class="p-facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2019-07-19T16:29:44JST">Jul 19, 2019</time></li>
-      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/posts/">posts</a></li>
-      
-    </ul>
-    <h2 class="title"><a href="/posts/hugo_blog/">Hugo website deployment</a></h2>
-  </header>
+  <div class="card">
+    <div class="card-body">
+		<ul class="p-facts">
+		  <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2019-07-19T16:29:44JST">Jul 19, 2019</time></li>
+		  <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/posts/">posts</a></li>
+		  
+		</ul>
+		
+		<h2 class="card-title"><a href="/posts/hugo_blog/">Hugo website deployment</a></h2>
 
-  
-  <div class="summary"><h3 id="install-hugo">install hugo</h3>
+		
+	  
+		  <div class="card-text">
+			<h3 id="install-hugo">install hugo</h3>
 
 <h5 id="我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功">我的环境是Windows, 在官网下载<a href="https://gohugo.io/getting-started/installing/">Hugo</a>后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功</h5>
 
@@ -125,13 +137,17 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 <h3 id="deploy">deploy</h3>
 
-<h5 id="参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署">参考官方教程<a href="https://gohugo.io/getting-started/quick-start/">hugo quick-start</a>, hugo生成静态文件后将public文件中文件push到repo完成部署.</h5></div>
+<h5 id="参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署">参考官方教程<a href="https://gohugo.io/getting-started/quick-start/">hugo quick-start</a>, hugo生成静态文件后将public文件中文件push到repo完成部署.</h5>
+		  </div>
 
-  
-  <footer>
-    <a href="/posts/hugo_blog/" title="Hugo website deployment">Read More…</a>
-  </footer>
-  
+		  
+		  <footer>
+			<a href="/posts/hugo_blog/" title="Hugo website deployment">Read More…</a>
+		  </footer>
+		  
+		  
+	</div>
+  </div>
 </article>
 </li>
 		
@@ -143,12 +159,12 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     
 <aside class="l-sidebar">  
 
   <div class="card">
-	<div class="card-header"><i class="fa fa-list"></i> Latests</div>
+	<div class="card-header">Latests</div>
 	<ul class="list-group list-group-flush">
 	  
 	  <a href="/posts/hugo_blog/" class="list-group-item">Hugo website deployment</a>
@@ -178,7 +194,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
   
   
   <div class="card">
-	<div class="card-header"><i class="fa fa-link"></i> Links</div>
+	<div class="card-header">Links</div>
 	<ul class="list-group list-group-flush">
 		
 			<a href="https://blog.ctftools.com/" class="list-group-item" title="Dream blog" target="_blank">Dr3@m&#39; blog</a> 

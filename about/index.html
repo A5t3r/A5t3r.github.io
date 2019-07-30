@@ -98,8 +98,8 @@
 	
 	<div style="height: 80px">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-navbar">
-				<div id="app" class="container">
-					<a class="navbar-brand" href="/">Aster&#39;s blog</a>
+				<div class="container">
+					<a class="navbar-brand" href="/"><i class="fas fa-crow"></i>Aster&#39;s blog</a>
 					<button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
 						<div class="animated-icon3"><span></span><span></span><span></span></div>
 					</button>
@@ -122,9 +122,19 @@
 							</li>
 							
 						</ul>
-									
-						
+
+
 						<ul class="navbar-nav ml-auto">
+						
+							<form class="form-inline" action="//www.google.com/search" accept-charset="utf-8" target="_blank" _lpchecked="1" method="get">
+								<div class="md-form my-0 md-outline">
+									<input class="form-control" type="text" maxlength="20" placeholder="Google" name="q">
+									<input type="hidden" name="sitesearch" value="/">
+								</div>
+								<button class="btn btn-sm my-0 ml-auto" type="submit">Search</button>
+							</form>
+							
+						
 						  
 						  
 							<li class="nav-item">
@@ -141,12 +151,11 @@
 			</nav>
 	</div>
 	
-	
     <main>
       <div class="container">
         
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-9">
 
     <nav class="p-crumb">
       <ol class="breadcrumb">
@@ -157,19 +166,19 @@
     </nav>
 	
     <article class="single">
-  <header>
-    <ul class="p-facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2019-07-29T17:41:34JST">Jul 29, 2019</time></li>
-      
-      
-    </ul>
 
-    <h1 class="title">About</h1>
-  </header>
-
-  
-
-  <div class="article-body">
+  <div class="card">
+	<div class="card-body">
+		<ul class="p-facts">
+		  <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2019-07-29T17:41:34JST">Jul 29, 2019</time></li>
+		  
+		  
+		</ul>
+		
+		
+	
+		<h2 class="card-title"><a href="/about/">About</a></h2>
+		<div class="card-text">
 
 <h4 id="id-aster">id: Aster</h4>
 
@@ -177,6 +186,8 @@
 
 <h6 id="为了记录学习与日常而建立的blog">为了记录学习与日常而建立的blog.</h6>
 </div>
+	</div>
+  </div>
   
   <footer class="article-footer">
     
@@ -195,12 +206,12 @@
     
   </div>
 
-  <div class="col-md-4">
+  <div class="col-md-3">
     
 <aside class="l-sidebar">  
 
   <div class="card">
-	<div class="card-header"><i class="fa fa-list"></i> Latests</div>
+	<div class="card-header">Latests</div>
 	<ul class="list-group list-group-flush">
 	  
 	  <a href="/posts/hugo_blog/" class="list-group-item">Hugo website deployment</a>
@@ -230,7 +241,7 @@
   
   
   <div class="card">
-	<div class="card-header"><i class="fa fa-link"></i> Links</div>
+	<div class="card-header">Links</div>
 	<ul class="list-group list-group-flush">
 		
 			<a href="https://blog.ctftools.com/" class="list-group-item" title="Dream blog" target="_blank">Dr3@m&#39; blog</a> 

@@ -98,8 +98,8 @@
 	
 	<div style="height: 80px">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-navbar">
-				<div id="app" class="container">
-					<a class="navbar-brand" href="/">Aster&#39;s blog</a>
+				<div class="container">
+					<a class="navbar-brand" href="/"><i class="fas fa-crow"></i>Aster&#39;s blog</a>
 					<button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
 						<div class="animated-icon3"><span></span><span></span><span></span></div>
 					</button>
@@ -122,9 +122,19 @@
 							</li>
 							
 						</ul>
-									
-						
+
+
 						<ul class="navbar-nav ml-auto">
+						
+							<form class="form-inline" action="//www.google.com/search" accept-charset="utf-8" target="_blank" _lpchecked="1" method="get">
+								<div class="md-form my-0 md-outline">
+									<input class="form-control" type="text" maxlength="20" placeholder="Google" name="q">
+									<input type="hidden" name="sitesearch" value="/">
+								</div>
+								<button class="btn btn-sm my-0 ml-auto" type="submit">Search</button>
+							</form>
+							
+						
 						  
 						  
 							<li class="nav-item">
@@ -141,12 +151,11 @@
 			</nav>
 	</div>
 	
-	
     <main>
       <div class="container">
         
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-9">
 
     <nav class="p-crumb">
       <ol class="breadcrumb">
@@ -159,19 +168,19 @@
     </nav>
 	
     <article class="single">
-  <header>
-    <ul class="p-facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2019-07-19T16:29:44JST">Jul 19, 2019</time></li>
-      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/posts/">posts</a></li>
-      
-    </ul>
 
-    <h1 class="title">Hugo website deployment</h1>
-  </header>
-
-  
-
-  <div class="article-body"><h3 id="install-hugo">install hugo</h3>
+  <div class="card">
+	<div class="card-body">
+		<ul class="p-facts">
+		  <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2019-07-19T16:29:44JST">Jul 19, 2019</time></li>
+		  <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/posts/">posts</a></li>
+		  
+		</ul>
+		
+		
+	
+		<h2 class="card-title"><a href="/posts/hugo_blog/">Hugo website deployment</a></h2>
+		<div class="card-text"><h3 id="install-hugo">install hugo</h3>
 
 <h5 id="我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功">我的环境是Windows, 在官网下载<a href="https://gohugo.io/getting-started/installing/">Hugo</a>后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功</h5>
 
@@ -242,6 +251,8 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 <h5 id="2-scrollspy滚动监听-我参考的是-blog养成记-16-自建hugo的toc模板-https-orianna-zzo-github-io-sci-tech-2018-08-blog-e5-85-bb-e6-88-90-e8-ae-b016-e8-87-aa-e5-bb-bahugo-e7-9a-84toc-e6-a8-a1-e6-9d-bf">2.scrollspy滚动监听, 我参考的是<a href="https://orianna-zzo.github.io/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B016-%E8%87%AA%E5%BB%BAhugo%E7%9A%84toc%E6%A8%A1%E6%9D%BF/">Blog养成记(16) 自建Hugo的TOC模板</a>.</h5>
 
 <h5 id="3-rss-url-index-xml">3.Rss Url:/index.xml</h5></div>
+	</div>
+  </div>
   
   <footer class="article-footer">
     
@@ -274,12 +285,12 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
     
   </div>
 
-  <div class="col-md-4">
+  <div class="col-md-3">
     
 <aside class="l-sidebar">  
 
   <div class="card">
-	<div class="card-header"><i class="fa fa-list"></i> Latests</div>
+	<div class="card-header">Latests</div>
 	<ul class="list-group list-group-flush">
 	  
 	  <a href="/posts/hugo_blog/" class="list-group-item">Hugo website deployment</a>
@@ -309,7 +320,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
   
   
   <div class="card">
-	<div class="card-header"><i class="fa fa-link"></i> Links</div>
+	<div class="card-header">Links</div>
 	<ul class="list-group list-group-flush">
 		
 			<a href="https://blog.ctftools.com/" class="list-group-item" title="Dream blog" target="_blank">Dr3@m&#39; blog</a> 
@@ -339,7 +350,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 			
 				
 				<nav class="card" id="scrollspy">
-				<div class="card-header">Catelog</div>
+				<div class="card-header"><i class="fas fa-list"></i> Catelog</div>
 					 <ul class="nav nav-pills flex-column">
 					
 						

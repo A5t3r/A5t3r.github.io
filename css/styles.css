@@ -1,12 +1,11 @@
 
 body,h1,h2,h3,h4,a {
 	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    font-weight:400;
+    font-weight:300;
 }
 
 body {
   font-size: inherit;
-  font-weight: 300;
 }
 
 p {
@@ -285,6 +284,7 @@ article.li.sm>header {
 
 
 
+
 .card {
 	margin-top: 20px;
 }
@@ -468,3 +468,12 @@ transform: rotate(-45deg);
 top: 21px;
 left: 8px;
 }
+
+
+
+.billboard {
+	background:#b8d9fa url(images/billboard.jpg) center center repeat-x;
+	background-size:cover;
+	padding:170px 0 100px;
+	box-shadow:0 2px 8px rgba(0,0,0,.25),0 2px 8px rgba(0,0,0,.12)
+	}
