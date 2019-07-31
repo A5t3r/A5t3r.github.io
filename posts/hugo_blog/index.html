@@ -5,6 +5,23 @@
 <meta name="pinterest" content="nopin">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+<link href="https://asterio.top/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://asterio.top/css/mdb.min.css" rel="stylesheet">
+<link href="https://asterio.top/css/styles.css" rel="stylesheet">
+<link href="https://asterio.top/css/highlight/atelier-dune-light.css" rel="stylesheet">
+
+
+<script type="text/javascript" src="https://asterio.top/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://asterio.top/js/popper.min.js"></script>
+<script type="text/javascript" src="https://asterio.top/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://asterio.top/js/mdb.min.js"></script>
+<script type="text/javascript" src="https://asterio.top/js/hamburger.js"></script>
+<script src="https://asterio.top/js/highlight/highlight.pack.js"> </script>
+<script>hljs.initHighlightingOnLoad();</script>	
+
 <meta name="generator" content="Hugo 0.55.6" />
 
 
@@ -14,23 +31,6 @@
 
 <link rel="icon" href="/favicon.ico" >
 
-	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-	
-	<link href="https://asterio.top/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://asterio.top/css/mdb.min.css" rel="stylesheet">
-	<link href="https://asterio.top/css/styles.css" rel="stylesheet">
-    <link href="https://asterio.top/css/highlight/atelier-dune-light.css" rel="stylesheet">
-	
-	
-	<script type="text/javascript" src="https://asterio.top/js/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="https://asterio.top/js/popper.min.js"></script>
-	<script type="text/javascript" src="https://asterio.top/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://asterio.top/js/mdb.min.js"></script>
-	<script type="text/javascript" src="https://asterio.top/js/hamburger.js"></script>
-	<script src="https://asterio.top/js/highlight/highlight.pack.js"> </script>
-    <script>hljs.initHighlightingOnLoad();</script>
-	
     <title>Hugo website deployment - Aster&#39;s blog</title>
     
 <meta name="description" content="&lt;h3 id=&#34;install-hugo&#34;&gt;install hugo&lt;/h3&gt;&lt;h5 id=&#34;我的环境是windows-在官网下载-hugo-https-gohugo-io-getting-started-installing-后-添加hugo路径到环境变量-命令行下输入hugo-version-出现版本信息表示安装成功&#34;&gt;我的环境是Windows, 在官网下载&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Hugo&lt;/a&gt;后, 添加Hugo路径到环境变量, 命令行下输入hugo version, 出现版本信息表示安装成功&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;$ hugo versionHugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T07:57:00Z&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;deploy&#34;&gt;deploy&lt;/h3&gt;&lt;h5 id=&#34;参考官方教程-hugo-quick-start-https-gohugo-io-getting-started-quick-start-hugo生成静态文件后将public文件中文件push到repo完成部署&#34;&gt;参考官方教程&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo quick-start&lt;/a&gt;, hugo生成静态文件后将public文件中文件push到repo完成部署.&lt;/h5&gt;">
@@ -87,8 +87,6 @@
 </script>
 
 
-    <link href="https://asterio.topcss/styles.css" rel="stylesheet">
-    
   </head>
 
   <body class="bg-white" data-spy="scroll" data-target="#scrollspy" data-offset="1">
@@ -97,58 +95,58 @@
     
 	
 	<div style="height: 80px">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-navbar">
-				<div class="container">
-					<a class="navbar-brand" href="https://asterio.top"><i class="fas fa-crow"></i>Aster&#39;s blog</a>
-					<button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-						<div class="animated-icon3"><span></span><span></span><span></span></div>
-					</button>
-					
-					
-					  <div id="navbarMenu" class="collapse navbar-collapse">
-						
-						<ul class="navbar-nav nav-tabs mr-auto">
-					
-							<li class="nav-item ">
-								<a class="nav-link" href="https://asterio.top">Home</a>
-							</li>
-							
-							<li class="nav-item  active ">
-								<a class="nav-link" href="/posts">Posts</a>
-							</li>
-							
-							<li class="nav-item ">
-								<a class="nav-link" href="/about">About</a>
-							</li>
-							
-						</ul>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-navbar">
+	<div class="container">
+		<a class="navbar-brand" href="https://asterio.top"><i class="fas fa-crow"></i>Aster&#39;s blog</a>
+		<button class="navbar-toggler third-button" type="button" data-toggle="collapse"
+		data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+			<div class="animated-icon3"><span></span><span></span><span></span></div>
+		</button>
+		
+		
+		
+		<div id="navbarMenu" class="collapse navbar-collapse"> 
+			
+			<ul class="navbar-nav nav-tabs mr-auto">
+		
+				<li class="nav-item ">
+					<a class="nav-link" href="https://asterio.top">Home</a>
+				</li>
+				
+				<li class="nav-item  active ">
+					<a class="nav-link" href="/posts">Posts</a>
+				</li>
+				
+				<li class="nav-item ">
+					<a class="nav-link" href="/about">About</a>
+				</li>
+				
+			</ul>
 
-
-						<ul class="navbar-nav ml-auto">
-						
-							<form class="form-inline" action="//www.google.com/search" accept-charset="utf-8" target="_blank" _lpchecked="1" method="get">
-								<div class="md-form my-0 md-outline">
-									<input class="form-control" type="text" maxlength="20" placeholder="Google" name="q">
-									<input type="hidden" name="sitesearch" value="https://asterio.top">
-								</div>
-								<button class="btn btn-sm my-0 ml-auto" type="submit">Search</button>
-							</form>
-							
-						
-						  
-						  
-							<li class="nav-item">
-								<a class="nav-link" href="/index.xml">RSS</a>
-							</li>
-						  
-						  
-						</ul>
-						
-					  </div>
-						
-						
-				</div>
-			</nav>
+			<ul class="navbar-nav ml-auto">
+			
+				<form class="form-inline" action="//www.google.com/search" accept-charset="utf-8" target="_blank" _lpchecked="1" method="get">
+					<div class="md-form my-0 md-outline">
+						<input class="form-control" type="text" maxlength="20" placeholder="Google" name="q">
+						<input type="hidden" name="sitesearch" value="https://asterio.top">
+					</div>
+					<button class="btn btn-sm my-0 ml-auto" type="submit">Search</button>
+				</form>
+				
+			
+			  
+			  
+				<li class="nav-item">
+					<a class="nav-link" href="/index.xml">RSS</a>
+				</li>
+				
+				 
+			</ul>
+			
+		</div>
+		  
+	</div>
+</nav>
 	</div>
 	
     <main>
@@ -157,8 +155,8 @@
 <div class="row">
   <div class="col-md-9">
 
-    <nav class="p-crumb">
-      <ol class="breadcrumb">
+    <nav>
+      <ol class="breadcrumb small">
         <li class="breadcrumb-item"><a href="https://asterio.top"><i class="fa fa-home" aria-hidden="true"></i></a></li>
         
         <li class="breadcrumb-item" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://asterio.topposts/" itemprop="url"><span itemprop="title">posts</span></a></li>
@@ -211,7 +209,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 <h5 id="在themes-your-theme-layout-partials添加comment-html-或者在文章页面添加评论代码-我使用的是-utterances-https-utteranc-es-installation-id-1305824-setup-action-install-优点是授权一个repo就可以使用">在themes/your_theme/layout/partials添加comment.html, 或者在文章页面添加评论代码, 我使用的是<a href="https://utteranc.es/?installation_id=1305824&amp;setup_action=install">utterances</a>, 优点是授权一个repo就可以使用.</h5>
 
-<pre><code>{{ if and .IsPage (ne .Params.comment false) }}
+<pre><code class="language-go">{{ if and .IsPage (ne .Params.comment false) }}
   &lt;!-- utteranc --&gt;
   {{ if .Site.Params.utteranc.enable }}
     &lt;div class=&quot;post bg-white&quot;&gt;
@@ -230,7 +228,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 <h5 id="在single-html-posts-page-添加-partial-comments-html-config-toml添加代码">在single.html(posts page)添加<code>{{ partial &quot;comments.html&quot; . }}</code>, config.toml添加代码</h5>
 
-<pre><code class="language-js">[params.utteranc]
+<pre><code class="language-yaml">[params.utteranc]
   enable = true
   repo = &quot;github-name/repo-name&quot;
   issueTerm = &quot;pathname&quot;
@@ -246,7 +244,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 <h3 id="other">other</h3>
 
-<h5 id="1-push代码的时候发现我的页面没有全部加载css-查找-资料-https-discourse-gohugo-io-t-hugo-static-styling-not-working-whereas-hugo-server-works-2916-发现可能是config-toml的问题-修改-baseurl-为-baseurl-解决问题">1.push代码的时候发现我的页面没有全部加载css, 查找<a href="https://discourse.gohugo.io/t/hugo-static-styling-not-working-whereas-hugo-server-works/2916">资料</a>发现可能是config.toml的问题, 修改<code>baseUrl</code>为<code>baseURL = &quot;/&quot;</code>解决问题.</h5>
+<h5 id="1-push代码的时候发现我的页面没有全部加载css-可能是hugo版本问题-修改加载custom-css部分解决问题">1.push代码的时候发现我的页面没有全部加载css, 可能是hugo版本问题,修改加载custom.css部分解决问题.</h5>
 
 <h5 id="2-scrollspy滚动监听-我参考的是-blog养成记-16-自建hugo的toc模板-https-orianna-zzo-github-io-sci-tech-2018-08-blog-e5-85-bb-e6-88-90-e8-ae-b016-e8-87-aa-e5-bb-bahugo-e7-9a-84toc-e6-a8-a1-e6-9d-bf">2.scrollspy滚动监听, 我参考的是<a href="https://orianna-zzo.github.io/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B016-%E8%87%AA%E5%BB%BAhugo%E7%9A%84toc%E6%A8%A1%E6%9D%BF/">Blog养成记(16) 自建Hugo的TOC模板</a>.</h5>
 
@@ -283,49 +281,78 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
   
 	
     
+  
   </div>
 
   <div class="col-md-3">
     
-<aside class="l-sidebar">  
+<aside>  
 
-  <div class="card">
-	<div class="card-header">Latests</div>
-	<ul class="list-group list-group-flush">
+  <div class="card" >
+	<div class="card-header" data-toggle="collapse" href="#latests" aria-expanded="true">
+		Latests
+	</div>
+	<ul id="latests" class="list-group list-group-flush collapse show">
 	  
-	  <a href="https://asterio.top/posts/hugo_blog/" class="list-group-item">Hugo website deployment</a>
+	  <a>
+		<li class="list-group-item list-group-item-action" href="https://asterio.top/posts/hugo_blog/">
+			Hugo website deployment
+		</li>
+	  </a>
 	  
 	</ul>
   </div>
 
   
   <div class="card">
-      <div class="card-header">Category</div>
-    <ul class="list-group list-group-flush">
+    <div class="card-header" data-toggle="collapse" href="#Category" aria-expanded="true">
+		Category
+    </div>
+    <ul id="Category" class="list-group list-group-flush collapse show">
       
-      <a href="https://asterio.topCategories/blog" class="list-group-item">blog</a>
-      
+	  <a>
+		<li class="list-group-item list-group-item-action" href="https://asterio.topCategories/blog">
+			blog<span class="badge badge-primary badge-pill float-right">1</span>
+		</li>
+	  </a>
+	  
     </ul>
   </div>
   
   <div class="card">
-      <div class="card-header">Tag</div>
-    <ul class="list-group list-group-flush">
+    <div class="card-header" data-toggle="collapse" href="#Tag" aria-expanded="true">
+		Tag
+    </div>
+    <ul id="Tag" class="list-group list-group-flush collapse show">
       
-      <a href="https://asterio.topTags/hugo" class="list-group-item">hugo</a>
-      
+	  <a>
+		<li class="list-group-item list-group-item-action" href="https://asterio.topTags/hugo">
+			hugo<span class="badge badge-primary badge-pill float-right">1</span>
+		</li>
+	  </a>
+	  
     </ul>
   </div>
   
   
   
   <div class="card">
-	<div class="card-header">Links</div>
-	<ul class="list-group list-group-flush">
+	<div class="card-header" data-toggle="collapse" href="#links" aria-expanded="true">
+		Links
+	</div>
+	<ul id="links" class="list-group list-group-flush collapse show" >
 		
-			<a href="https://blog.ctftools.com/" class="list-group-item" title="Dream blog" target="_blank">Dr3@m&#39; blog</a> 
+		<a>
+			<li class="list-group-item list-group-item-action" href="https://blog.ctftools.com/" title="Dream blog" target="_blank">
+				Dr3@m&#39; blog
+			</li>
+		</a>
 		
-			<a href="http://mirrors.flysnow.org/" class="list-group-item" title="常用开发工具CDN镜像" target="_blank">常用开发工具CDN镜像</a> 
+		<a>
+			<li class="list-group-item list-group-item-action" href="http://mirrors.flysnow.org/" title="常用开发工具CDN镜像" target="_blank">
+				常用开发工具CDN镜像
+			</li>
+		</a>
 		
 	</ul>
   </div>
@@ -335,7 +362,7 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 
 
 	
-	<div style="position: sticky; top: 71px;">
+	<div style="position: sticky; top: 72px;">
     
 	
 	
