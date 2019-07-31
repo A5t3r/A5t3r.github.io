@@ -83,7 +83,7 @@
 			  
 			  
 				<li class="nav-item">
-					<a class="nav-link" href="/index.xml">RSS</a>
+					<a class="nav-link" href=""></a>
 				</li>
 				
 				 
@@ -102,9 +102,17 @@
   <div class="col-md-9">
 
     
-    <header class="page-header">
-      <h1>blog</h1>
-    </header>
+    <div class="border-bottom">
+	  <nav>
+        <ol class="breadcrumb small">
+          <li class="breadcrumb-item"><a href="https://asterio.top"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+          
+          <li class="breadcrumb-item"><a href="https://asterio.topcategories/">Categories</span></a></li>
+          
+          <li class="breadcrumb-item active">blog</li>
+        </ol>
+      </nav>
+    </div>
     
 
     <ul class="p-articles">
@@ -120,7 +128,9 @@
 		  
 		</ul>
 		
-		<h2 class="card-title"><a href="https://asterio.top/posts/hugo_blog/">Hugo website deployment</a></h2>
+		<div class="border-bottom">
+			<h2 class="card-title"><a href="https://asterio.top/posts/hugo_blog/">Hugo website deployment</a></h2>
+		</div>
 
 		
 	  
@@ -167,8 +177,8 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 	</div>
 	<ul id="latests" class="list-group list-group-flush collapse show">
 	  
-	  <a>
-		<li class="list-group-item list-group-item-action" href="https://asterio.top/posts/hugo_blog/">
+	  <a href="https://asterio.top/posts/hugo_blog/">
+		<li class="list-group-item list-group-item-action">
 			Hugo website deployment
 		</li>
 	  </a>
@@ -183,8 +193,8 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
     </div>
     <ul id="Category" class="list-group list-group-flush collapse show">
       
-	  <a>
-		<li class="list-group-item list-group-item-action" href="https://asterio.topCategories/blog">
+	  <a href="https://asterio.topcategories/blog">
+		<li class="list-group-item list-group-item-action" title="1 blog Categories">
 			blog<span class="badge badge-primary badge-pill float-right">1</span>
 		</li>
 	  </a>
@@ -198,8 +208,8 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
     </div>
     <ul id="Tag" class="list-group list-group-flush collapse show">
       
-	  <a>
-		<li class="list-group-item list-group-item-action" href="https://asterio.topTags/hugo">
+	  <a href="https://asterio.toptags/hugo">
+		<li class="list-group-item list-group-item-action" title="1 hugo Tags">
 			hugo<span class="badge badge-primary badge-pill float-right">1</span>
 		</li>
 	  </a>
@@ -215,14 +225,14 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 	</div>
 	<ul id="links" class="list-group list-group-flush collapse show" >
 		
-		<a>
-			<li class="list-group-item list-group-item-action" href="https://blog.ctftools.com/" title="Dream blog" target="_blank">
+		<a href="https://blog.ctftools.com/" target="_blank">
+			<li class="list-group-item list-group-item-action" title="Dream blog">
 				Dr3@m&#39; blog
 			</li>
 		</a>
 		
-		<a>
-			<li class="list-group-item list-group-item-action" href="http://mirrors.flysnow.org/" title="常用开发工具CDN镜像" target="_blank">
+		<a href="http://mirrors.flysnow.org/" target="_blank">
+			<li class="list-group-item list-group-item-action" title="常用开发工具CDN镜像">
 				常用开发工具CDN镜像
 			</li>
 		</a>
@@ -230,7 +240,19 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 	</ul>
   </div>
 	
-	
+
+  <div class="card">
+	<div class="card-header" data-toggle="collapse" href="#rss" aria-expanded="true">
+		Others
+	</div>
+	<ul id="rss" class="list-group list-group-flush collapse show" >
+		<a href="https://asterio.top/index.xml" target="_blank">
+			<li class="list-group-item list-group-item-action">
+				RSS
+			</li>
+		</a>
+	</ul>
+  </div>
 </aside>
 
 

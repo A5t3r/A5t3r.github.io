@@ -38,17 +38,6 @@ main {
   border-radius: 0;
 }
 
-.page-header {
-  margin: 0;
-  margin-bottom: 1rem;
-  padding: 0;
-  padding: 1rem 0;
-}
-
-.page-header h1 {
-  margin: 0;
-}
-
 .l-footer {
   font-size: .8rem;
   padding: 1.5rem 0;
@@ -87,21 +76,6 @@ main {
 
 .p-terms li:last-child::after {
   content: '';
-}
-
-/* Parts:section */
-section {
-  font-size: .8rem;
-}
-
-section>header {
-  margin-bottom: .5rem;
-  font-weight: 500;
-}
-
-section.bordered {
-  border-top: 1px solid #eee;
-  padding: 1rem 0;
 }
 
 /* Parts:article */
@@ -251,16 +225,6 @@ article.li.sm>header {
 .article-body figure.left { float: left; margin-right: 1rem; }
 .article-body figure.right { float: right; margin-left: 1rem; }
 
-@media (max-width: 768px) {
-  .article-body figure.left,
-  .article-body figure.right {
-    float: none;
-    margin: 0;
-    width: auto;
-    height: auto;
-  }
-}
-
 .article-body figcaption {
   padding: .5rem 0;
   font-size: .8rem;
@@ -276,7 +240,12 @@ article.li.sm>header {
 	margin-top: 20px;
 }
 
-
+$navbar-light-color: rgba($primary, .5);
+$navbar-light-hover-color: rgba($primary, .7);
+$navbar-light-active-color: rgba($primary, .9);
+.nav-link:hover {
+  background-color: primary !important;	
+}
 
 .nav-item:hover {
   background-color: #dfdfdf !important;
