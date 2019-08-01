@@ -240,15 +240,12 @@ article.li.sm>header {
 	margin-top: 20px;
 }
 
-$navbar-light-color: rgba($primary, .5);
-$navbar-light-hover-color: rgba($primary, .7);
-$navbar-light-active-color: rgba($primary, .9);
-.nav-link:hover {
-  background-color: primary !important;	
+.nav-item:hover {
+	background-color: #dfdfdf !important;
 }
 
-.nav-item:hover {
-  background-color: #dfdfdf !important;
+.nav-crumb {
+	margin-top: 20px;
 }
 
 
