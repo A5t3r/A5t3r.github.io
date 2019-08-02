@@ -5,7 +5,7 @@ body,h1,h2,h3,h4,a {
 
 body {
   font-size: inherit;
-  padding-top: 36px;
+  padding-top: 60px;
 }
 
 p {
@@ -249,61 +249,6 @@ article.li.sm>header {
 	margin-top: 20px;
 }
 
-/* mobile slide navbar */
-
-#wrapper {
-	padding-left: 0;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	-o-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-
-#wrapper.toggled {
-	padding-left: 250px;
-}
-
-#sidebar-wrapper {
-	text-align:center;
-	z-index: 1000;
-	position: fixed;
-	left: 250px;
-	width: 0;
-	height: 100%;
-	margin-left: -250px;
-	overflow-y: auto;
-	background: #fff;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	-o-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-
-#wrapper.toggled #sidebar-wrapper {
-	width: 250px;
-}
-
-#page-content-wrapper {
-	width: 100%;
-	position: absolute;
-	padding: 15px;
-}
-
-#wrapper.toggled #page-content-wrapper {
-	position: absolute;
-	margin-right: -250px;
-}
-
-#overlay {
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: none;
-  background-color: rgba(0,0,0,.5);
-}
 
 /* hamburger menu */
 /* Icon 1 */
