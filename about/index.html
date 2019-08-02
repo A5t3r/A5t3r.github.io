@@ -92,8 +92,7 @@
 		<button id='menu-toggle' class="navbar-toggler third-button" type="button" data-toggle="collapse"
 		aria-expanded="false" aria-label="Toggle navigation">
 			<div class="animated-icon3"><span></span><span></span><span></span></div>
-		</button>
-		
+		</button>	
 		
 		<div id="navbarMenu" class="collapse navbar-collapse" id="sidebar-wrapper"> 
 		
@@ -185,7 +184,7 @@
 				</div>
 		</div>
 		
-		<div id='overlay'></div>
+		
 		
 		<div id="page-content-wrapper">
 	
@@ -365,25 +364,31 @@
 <script type="text/javascript" src="https://asterio.top/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/mdb.min.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/hamburger.js"></script>
+<script type="text/javascript" src="https://asterio.top/js/jquery.smooth-scroll.js"></script>
 <script src="https://asterio.top/js/highlight/highlight.pack.js"> </script>
 <script>hljs.initHighlightingOnLoad();</script>	
 
 <script>
+	
 	$(document).ready(function() {
-
+	
+		var flag = 0;
 		$('#menu-toggle').click(function(e) {
+		  flag++;
 		  e.preventDefault();
 		  $('#wrapper').toggleClass('toggled');
-		  $('#overlay').fadeToggle( "slow", "swing" );
 		});
-
-		$('#overlay').click(function() {
-		  $('.animated-icon3').toggleClass('open');
-		  $('#overlay').fadeOut('slow');
-		  $('#wrapper').removeClass('toggled');
+		
+		$('#page-content-wrapper').click(function() {
+		  if (flag) {
+			  $('.animated-icon3').toggleClass('open');
+			  $('#wrapper').removeClass('toggled');
+			  flag--;
+		  }
 		});
 
 	});
+	
 </script>
   </body>
 </html>

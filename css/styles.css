@@ -253,10 +253,10 @@ article.li.sm>header {
 
 #wrapper {
 	padding-left: 0;
-	-webkit-transition: all 0.8s ease;
-	-moz-transition: all 0.8s ease;
-	-o-transition: all 0.8s ease;
-	transition: all 0.8s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 
 #wrapper.toggled {
@@ -273,10 +273,10 @@ article.li.sm>header {
 	margin-left: -250px;
 	overflow-y: auto;
 	background: #fff;
-	-webkit-transition: all 0.8s ease;
-	-moz-transition: all 0.8s ease;
-	-o-transition: all 0.8s ease;
-	transition: all 0.8s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 
 #wrapper.toggled #sidebar-wrapper {
