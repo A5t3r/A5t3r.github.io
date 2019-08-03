@@ -1,11 +1,6 @@
-body,h1,h2,h3,h4,a {
-	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    font-weight:300;
-}
-
 body {
   font-size: inherit;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 p {
@@ -236,7 +231,13 @@ article.li.sm>header {
   color: #263238;
 }
 
+/* toc */
+.toc {
+	position: sticky;
+	top: 72px;
+}
 
+/* sidebar */
 .card {
 	margin-top: 20px;
 }
@@ -421,3 +422,28 @@ top: 21px;
 left: 8px;
 }
 
+/* picture view */
+.view {
+    background: url("/billboard.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #e0e0e0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #e0e0e0;
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
