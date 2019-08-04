@@ -231,6 +231,7 @@ article.li.sm>header {
 .toc {
 	position: sticky;
 	top: 72px;
+	margin-bottom: 20px;
 }
 
 /* sidebar */
