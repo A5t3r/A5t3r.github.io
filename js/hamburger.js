@@ -8,8 +8,9 @@ $(document).ready(function () {
 
     $('.animated-icon2').toggleClass('open');
   });
+  //add overlay
   $('.third-button').on('click', function () {
-
     $('.animated-icon3').toggleClass('open');
+	$('#overlay').fadeToggle( "slow", "swing" );
   });
 });

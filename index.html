@@ -35,7 +35,7 @@
 	<div class="container">
 		<a class="navbar-brand" href="https://asterio.top"><i class="fas fa-crow"></i>Aster&#39;s blog</a>
 		
-		<button id="mobile-button" class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarMenu"
+		<button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarMenu"
 		aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
 			<div class="animated-icon3"><span></span><span></span><span></span></div>
 		</button>	
@@ -89,6 +89,8 @@
 		<div class="full-bg-img">
 		</div>
 	</div>
+	
+	<div id='overlay'></div>
 	
 	<main>
 	  <div class="container">
@@ -318,6 +320,15 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 <script>hljs.initHighlightingOnLoad();</script>	
 
 <script>
+
+	
+	$(document).ready(function() {
+		$('#overlay').click(function() {
+		  $('#overlay').fadeOut('slow');
+		  $('.animated-icon3').toggleClass('open');
+		  $('#navbarMenu').collapse("hide");
+		});
+	});
 	
 	
 	$(window).bind('hashchange', function (event) {
