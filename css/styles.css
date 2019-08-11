@@ -23,17 +23,12 @@ h4, h5, h6 { font-size: 1rem; line-height: 1.5rem; margin: 1.5rem 0; }
 
 main {
   display: block;
+  background-color: #eceff1;
 }
 
 /* Override */
 .navbar {
   border-radius: 0;
-}
-
-.l-footer {
-  font-size: .8rem;
-  padding: 1.5rem 0;
-  color: #999;
 }
 
 /* Parts:facts */
@@ -342,29 +337,22 @@ left: 8px;
 /* billboard */
 .billboard {
 	padding: 100px 0 100px;
-	background: url("/billboard.jpg")no-repeat center center;
+	background: linear-gradient(to bottom, #1e528e 0%,#265889 50%,#ADD8E6 100%);
+	/*background: url("/billboard.jpg")no-repeat center center;*/
 	background-size: cover;
 	margin-top: 0;
 }
 
 .navbar {
-    background-color: transparent;
-}
-.top-nav-collapse {
-    background-color: #e0e0e0;
+	background: #3F729B;
+	opacity: 0.9;
+    /*background-color: transparent;*/
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #e0e0e0;
+		opacity: 1;
     }
-}
-
-html,
-body,
-header,
-.view {
-  height: 100%;
 }
 
 /* tags */
@@ -395,3 +383,8 @@ header,
   display: none;
   background-color: rgba(0,0,0,.5);
 }
+
+
+
+
+
