@@ -384,6 +384,22 @@ left: 8px;
   background-color: rgba(0,0,0,.5);
 }
 
+#scrollToTop {
+	z-index:1001;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	color: white;
+	padding: 15px;
+	border-radius: 4px;
+	opacity: 0;
+}
+#scrollToTop.is-visible {
+    opacity:1;
+}
+#scrollToTop:hover {
+	background-color: #66ccff !important;
+}
 
 
 

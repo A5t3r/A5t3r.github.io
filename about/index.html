@@ -84,6 +84,8 @@
     
     
 	
+	<button class="btn btn-info" id="scrollToTop">Top</button>
+	
 	<div class="fixed-top text-center">
 		<nav class="navbar navbar-expand-md navbar-light"> 
 	<div class="container">
@@ -170,7 +172,7 @@
 		
 <div class="row">
   <div class="col-md-9">
-
+	
     <nav class="nav-crumb">
       <ol class="breadcrumb small blue-grey lighten-4">
         <li class="breadcrumb-item"><a href="https://asterio.top"><i class="fa fa-home" aria-hidden="true"></i></a></li>
@@ -389,19 +391,11 @@
 <script type="text/javascript" src="https://asterio.top/js/mdb.min.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/hamburger.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="https://asterio.top/js/scroll-top.js"></script>
 <script src="https://asterio.top/js/highlight/highlight.pack.js"> </script>
 <script>hljs.initHighlightingOnLoad();</script>	
 
 <script>
-
-	
-	$(document).ready(function() {
-		$('#overlay').click(function() {
-		  $('#overlay').fadeOut('slow');
-		  $('.animated-icon3').toggleClass('open');
-		  $('#navbarMenu').collapse("hide");
-		});
-	});
 	
 	
 	$(window).bind('hashchange', function (event) {

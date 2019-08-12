@@ -30,6 +30,8 @@
     
     
 	
+	<button class="btn btn-info" id="scrollToTop">Top</button>
+	
 	<div class="fixed-top text-center">
 		<nav class="navbar navbar-expand-md navbar-light"> 
 	<div class="container">
@@ -337,19 +339,11 @@ Hugo Static Site Generator v0.55.6-A5D4C82D windows/amd64 BuildDate: 2019-05-18T
 <script type="text/javascript" src="https://asterio.top/js/mdb.min.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/hamburger.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="https://asterio.top/js/scroll-top.js"></script>
 <script src="https://asterio.top/js/highlight/highlight.pack.js"> </script>
 <script>hljs.initHighlightingOnLoad();</script>	
 
 <script>
-
-	
-	$(document).ready(function() {
-		$('#overlay').click(function() {
-		  $('#overlay').fadeOut('slow');
-		  $('.animated-icon3').toggleClass('open');
-		  $('#navbarMenu').collapse("hide");
-		});
-	});
 	
 	
 	$(window).bind('hashchange', function (event) {
