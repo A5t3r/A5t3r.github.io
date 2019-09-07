@@ -14,3 +14,12 @@ $(document).ready(function () {
 	$('#overlay').fadeToggle( "slow", "swing" );
   });
 });
+
+// overlay click animation
+$(document).ready(function() {
+	$('#overlay').click(function() {
+	  $('#overlay').fadeOut('slow');
+	  $('.animated-icon3').toggleClass('open');
+	  $('#navbarMenu').collapse("hide");
+	});
+});

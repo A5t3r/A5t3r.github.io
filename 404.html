@@ -25,7 +25,7 @@
     
   </head>
 
-  <body class="bg-white" data-spy="scroll" data-target="#scrollspy" data-offset="1">
+  <body class="bg-white" data-spy="scroll" data-target="#scrollspy" data-offset="120">
     
 	
     
@@ -78,7 +78,7 @@ if (!doNotTrack) {
 						<li class="nav-item ">
 							<a class="nav-link" href="/">
 								
-								<span>Home</span>
+								Home <span class="sr-only">(current)</span>
 							</a>
 						</li>
 						
@@ -94,7 +94,7 @@ if (!doNotTrack) {
 						<li class="nav-item ">
 							<a class="nav-link" href="/posts">
 								
-								<span>Posts</span>
+								Posts <span class="sr-only">(current)</span>
 							</a>
 						</li>
 						
@@ -202,39 +202,11 @@ if (!doNotTrack) {
 <script type="text/javascript" src="https://asterio.top/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/mdb.min.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/hamburger.js"></script>
-<script type="text/javascript" src="https://asterio.top/js/jquery.smooth-scroll.min.js"></script>
 <script type="text/javascript" src="https://asterio.top/js/scroll-top.js"></script>
 <script src="https://asterio.top/js/highlight/highlight.pack.js"> </script>
-<script>hljs.initHighlightingOnLoad();</script>	
+<script>hljs.initHighlightingOnLoad();</script>
 
-<script>
-	
-	
-	$(window).bind('hashchange', function (event) {
-		$.smoothScroll({
-			 offset: $('body').attr('data-offset')? -$('body').attr('data-offset'):0 ,
-			
-			scrollTarget: location.hash.replace(/^\#\/?/, '#')
-		});
-	});
 
-	$('a[href*="#"]')
-		.bind('click', function (event) {
-			
-			var hash = this.hash.replace(/^#/, '')
-			if (this.pathname === location.pathname && hash) {
-				event.preventDefault();
-				
-				location.hash = '#/' + hash;
-			}
-		});
-
-	
-	if (location.hash) {
-		$(window).trigger('hashchange');
-	}
-</script>
-	
   </body>
 </html>
 

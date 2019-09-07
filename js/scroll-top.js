@@ -16,7 +16,7 @@ var basicScrollTop = function () {
 	  setTimeout(function() {
 		window.scrollTo(0,window.scrollY-100);
 		TopscrollTo();
-	  }, 5);
+	  }, 0);//loading speed variable
 	}
 	}
 	// Listeners
@@ -24,13 +24,5 @@ var basicScrollTop = function () {
 	btnTop.addEventListener('click', TopscrollTo);  
 
 };
-basicScrollTop();	
-	
-// overlay click animation
-$(document).ready(function() {
-	$('#overlay').click(function() {
-	  $('#overlay').fadeOut('slow');
-	  $('.animated-icon3').toggleClass('open');
-	  $('#navbarMenu').collapse("hide");
-	});
-});
+
+basicScrollTop();
